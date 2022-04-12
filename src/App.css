@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 12px;
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
